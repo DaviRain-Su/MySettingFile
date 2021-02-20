@@ -1,3 +1,7 @@
+source $HOME/.cargo/env
+export PATH="/opt/homebrew/bin/:$PATH"
+export http_proxy="http://localhost:15236"
+export https_proxy="http://localhost:15236"
 # setting startship
 eval "$(starship init zsh)"
 
@@ -11,7 +15,7 @@ if [ "$(command -v exa)" ]; then
     alias ll='exa -l --color always --icons -a -s type'
 fi
 
-# for cat setting 
+# for cat setting
 if [ "$(command -v bat)" ]; then
   unalias -m 'cat'
   alias cat='bat -pp --theme="Nord"'
