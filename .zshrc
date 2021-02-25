@@ -35,3 +35,7 @@ alias cl='clear'
 
 # for substrate 
 export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
+
+# setting node-js
+export PATH="/opt/homebrew/opt/icu4c/bin:$PATH"
+export PATH="/opt/homebrew/opt/icu4c/sbin:$PATH"
