@@ -50,3 +50,8 @@ alias glo='git log --oneline'
 
 # setting elixir
 export PATH="$PATH:/path/to/elixir/bin"
+
+# setting flutter
+export PATH="$PATH:/Users/davirain/develop/flutter/bin"
+
+
